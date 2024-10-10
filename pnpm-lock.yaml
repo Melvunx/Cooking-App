@@ -8,6 +8,9 @@ importers:
 
   .:
     dependencies:
+      '@lordicon/react':
+        specifier: ^1.10.0
+        version: 1.10.0(react@18.3.1)
       axios:
         specifier: ^1.7.7
         version: 1.7.7
@@ -376,6 +379,24 @@ packages:
 
   '@jridgewell/trace-mapping@0.3.25':
     resolution: {integrity: sha512-vNk6aEwybGtawWmy/PzwnGDOjCkLWSD2wqvjGGAgOAwCGWySYXfYoxt00IJkTF+8Lb57DwOb3Aa0o9CApepiYQ==}
+
+  '@lordicon/helpers@1.10.0':
+    resolution: {integrity: sha512-8Qx193ENhyHrNhSyB0YD75NWbIJt0XjqNdQqJGDX+/nf1bjf2Tw/8krmGcwE6kFoP8ApB6hhvVyZR2zaPMlu+g==}
+
+  '@lordicon/react@1.10.0':
+    resolution: {integrity: sha512-5lAqGWsR5juNnHOKlHFesw0rdawivFi2tbX/+d6aUfFyobVw5HCzsP2Oom3oDBjIlbOW9SsMViIL/Fj4BXwuog==}
+    peerDependencies:
+      lottie-react-native: '*'
+      lottie-web: '*'
+      react: '*'
+      react-native: '*'
+    peerDependenciesMeta:
+      lottie-react-native:
+        optional: true
+      lottie-web:
+        optional: true
+      react-native:
+        optional: true
 
   '@nodelib/fs.scandir@2.1.5':
     resolution: {integrity: sha512-vq24Bq3ym5HEQm2NKCr3yXDwjc7vTsEThRDnkp2DK9p1uqLR+DHurm/NOTo0KG7HYHU7eppKZj3MyqYuMBf62g==}
@@ -1708,6 +1729,13 @@ snapshots:
     dependencies:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.5.0
+
+  '@lordicon/helpers@1.10.0': {}
+
+  '@lordicon/react@1.10.0(react@18.3.1)':
+    dependencies:
+      '@lordicon/helpers': 1.10.0
+      react: 18.3.1
 
   '@nodelib/fs.scandir@2.1.5':
     dependencies:

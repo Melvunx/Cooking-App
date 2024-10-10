@@ -3,7 +3,7 @@ import Search from "@layout/Search";
 
 const Home = () => {
   return (
-    <div>
+    <div className="bg-slate-300">
       <Search />
       <main id="main">
         <Card />
