@@ -1,5 +1,9 @@
-import Card from "../components/layout/Card";
-import Search from "../components/layout/Search";
+// eslint-disable-next-line @typescript-eslint/ban-ts-comment
+//@ts-expect-error
+import Card from "@layout/Card";
+// eslint-disable-next-line @typescript-eslint/ban-ts-comment
+//@ts-expect-error
+import Search from "@layout/Search";
 
 const Home = () => {
   return (

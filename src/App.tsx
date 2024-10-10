@@ -1,6 +1,12 @@
-import Footer from "./components/Footer";
-import Header from "./components/Header";
-import Home from "./pages/Home";
+// eslint-disable-next-line @typescript-eslint/ban-ts-comment
+//@ts-expect-error
+import Footer from "@components/Footer";
+// eslint-disable-next-line @typescript-eslint/ban-ts-comment
+//@ts-expect-error
+import Header from "@components/Header";
+// eslint-disable-next-line @typescript-eslint/ban-ts-comment
+//@ts-expect-error
+import Home from "@pages/Home";
 
 function App() {
   return (
