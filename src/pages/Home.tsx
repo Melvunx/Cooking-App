@@ -1,12 +1,10 @@
-import Card from "@layout/Card";
-import Search from "@layout/Search";
+import Dishes from "@/components/Dishes";
 
 const Home = () => {
   return (
     <div className="bg-slate-300">
-      <Search />
       <main id="main">
-        <Card />
+        <Dishes />
       </main>
     </div>
   );

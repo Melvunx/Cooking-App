@@ -1,7 +1,7 @@
-const Card = () => {
+const Card = ({ meal }) => {
   return (
     <div className="">
-      <h1>Card</h1>
+      <h1>{meal.strMeal}</h1>
     </div>
   );
 };
