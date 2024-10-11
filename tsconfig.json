@@ -11,6 +11,7 @@
       "@pages/*": ["src/pages/*"],
       "@components/*": ["src/components/*"],
       "@layout/*": ["src/components/layout/*"],
+      "@icons/*": ["src/components/icons/*"],
       "@assets/*": ["src/assets/*"],
       "@fonts/*": ["src/assets/fonts/*"]
     }

@@ -6,6 +6,7 @@ export default {
       fontFamily: {
         title: ["Merriweather Sans"],
         global: ["Inter"],
+        nav: ["Londrina Sketch"],
       },
     },
   },

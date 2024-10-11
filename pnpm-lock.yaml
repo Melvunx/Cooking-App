@@ -10,7 +10,7 @@ importers:
     dependencies:
       '@lordicon/react':
         specifier: ^1.10.0
-        version: 1.10.0(react@18.3.1)
+        version: 1.10.0(lottie-web@5.12.2)(react@18.3.1)
       axios:
         specifier: ^1.7.7
         version: 1.7.7
@@ -1047,6 +1047,9 @@ packages:
     resolution: {integrity: sha512-lyuxPGr/Wfhrlem2CL/UcnUc1zcqKAImBDzukY7Y5F/yQiNdko6+fRLevlw1HgMySw7f611UIY408EtxRSoK3Q==}
     hasBin: true
 
+  lottie-web@5.12.2:
+    resolution: {integrity: sha512-uvhvYPC8kGPjXT3MyKMrL3JitEAmDMp30lVkuq/590Mw9ok6pWcFCwXJveo0t5uqYw1UREQHofD+jVpdjBv8wg==}
+
   lru-cache@10.4.3:
     resolution: {integrity: sha512-JNAzZcXrCt42VGLuYz0zfAzDfAvJWW6AfYlDBQyDV5DClI2m5sAmK+OIO7s59XfsRsWHp02jAJrRadPRGTt6SQ==}
 
@@ -1732,10 +1735,12 @@ snapshots:
 
   '@lordicon/helpers@1.10.0': {}
 
-  '@lordicon/react@1.10.0(react@18.3.1)':
+  '@lordicon/react@1.10.0(lottie-web@5.12.2)(react@18.3.1)':
     dependencies:
       '@lordicon/helpers': 1.10.0
       react: 18.3.1
+    optionalDependencies:
+      lottie-web: 5.12.2
 
   '@nodelib/fs.scandir@2.1.5':
     dependencies:
@@ -2380,6 +2385,9 @@ snapshots:
   loose-envify@1.4.0:
     dependencies:
       js-tokens: 4.0.0
+
+  lottie-web@5.12.2:
+    optional: true
 
   lru-cache@10.4.3: {}
 
