@@ -35,7 +35,7 @@ const Dishes = () => {
           />
         </div>
       </div>
-      <ul className="flex flex-wrap gap-8">
+      <ul className="flex flex-wrap gap-8 max-md:mx-auto max-md:w-10/12 lg:w-full">
         {data.length === 0 ? (
           <h1>No results found</h1>
         ) : (

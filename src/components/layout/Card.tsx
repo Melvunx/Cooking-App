@@ -15,7 +15,7 @@ const Card = ({ meal }: { meal: Meal }) => {
     <div className="mx-auto flex flex-col items-center justify-center gap-5 rounded-md bg-zinc-200 p-8 shadow-md sm:w-3/4 sm:p-4 lg:w-1/3 lg:px-14 lg:py-10">
       <div className="flex w-1/2 flex-col items-center justify-center gap-2">
         <img
-          className="w-2/3 rounded-lg shadow-md sm:w-1/3"
+          className="rounded-lg shadow-md max-sm:w-2/3  lg:w-3/4"
           src={meal.strMealThumb}
           alt={meal.strMeal}
         />
